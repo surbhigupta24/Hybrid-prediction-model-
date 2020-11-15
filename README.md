@@ -1,5 +1,5 @@
 # Hybrid-prediction-model-
-A comprehensive data level investigation of cancer diagnosis on imbalanced data 
+A comprehensive data level investigation of diagnosis prediction on imbalanced data 
 
 Installation: To run the scripts, you need to have installed:
 
@@ -15,7 +15,7 @@ pip install tensorflow
 You need to have root privileges, an internet connection, and at least 1 GB of free space on your hard disk.
 Our scripts were originally developed on a Dell -15JPO9P computer with an Intel Core i7-8550U CPU 1.80GHz processor, with 8 GB of Random-Access Memory (RAM).
 
-Dataset preparation: The data sets used for the analysis are publically available on the website of the University of California Irvine Machine Learning Repository, under its copyright license.
+Dataset preparation: The data sets used for the analysis are publically available on the website of the University of California Irvine Machine Learning Repository and Kaggle, under its copyright license.
 All the data files are shared with the code. Also, few of the data sources are online available. The respective links are available as following:
 
 Download the Cervical cancer (Risk Factors) Data Set file  at the following URL: 
@@ -26,6 +26,12 @@ https://archive.ics.uci.edu/ml/datasets/Mesothelioma%C3%A2%E2%82%AC%E2%84%A2s+di
 
 Download the Breast Cancer Wisconsin (Diagnostic) Data Set file  at the following URL: 
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+Prostate Cancer Dataset file at the following URL:
+https://www.kaggle.com/sajidsaifi/prostate-cancer
+
+Hepatitis-C Virus Dataset at the following URL:
+https://archive.ics.uci.edu/ml/datasets/HCV+data
 
 Proposed Classification Approach
 
@@ -56,9 +62,21 @@ Run Mesothelioma_ES.py
 To execute the Proposed Stacked Ensemble Classifier on Breast Cancer Wisconsin Dataset:
 Run Breast_ES.py
 
+To execute the Ensemble of simple Classifier on Prosate Cancer Dataset:
+Run Prostate_SS.py
+
+To execute the Proposed Stacked Ensemble Classifier on Prosate Cancer Dataset: 
+Run Prosate_ES.py
+
+To execute the Proposed Stacked Ensemble Classifier on HCV Dataset:
+Run HCV_ES.py
+
+To execute the Proposed Stacked Ensemble Classifier on HCV Dataset:
+Run HCV_ES.py
+
 Reference
 More information about this project can be found on this paper:
-Surbhi Gupta and Manoj K. Gupta "A comprehensive data level investigation of cancer diagnosis on imbalanced data".
+Surbhi Gupta and Manoj K. Gupta "A comprehensive data level investigation of diagnosis prediction on imbalanced data ".
 
 Contacts
 This sofware was developed by Surbhi Gupta at the School of Computer Science & Engineering, Shri Mata Vaishno Devi University, Sub-Post Office,  Network Centre, Katra, Jammu and Kashmir 182320, India . 
